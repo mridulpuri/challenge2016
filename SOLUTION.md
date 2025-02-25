@@ -55,10 +55,17 @@ This solution implements a hierarchical permission system for movie distributors
 - **Distributor Name** (e.g., `DISTRIBUTOR1`)
 - **Region** in `CITY-STATE-COUNTRY` format (e.g., `CHICAGO-ILLINOIS-UNITED STATES`)
 
+
+## Expected Output
+
 The program will respond with either:
-<DISTRIBUTOR> is authorized to distribute in <REGION>. Reason: <REASON>
+```
+    DISTRIBUTOR1 is authorized to distribute in CHICAGO-ILLINOIS-UNITED STATES. Reason: Explicitly included by distributor: DISTRIBUTOR1
+```
 or
-<DISTRIBUTOR> is NOT authorized to distribute in <REGION>. Reason: <REASON>
+```
+    DISTRIBUTOR1 is NOT authorized to distribute in CHICAGO-ILLINOIS-UNITED STATES. Reason: Explicitly excluded by distributor: DISTRIBUTOR1
+``
 
 ---
 
