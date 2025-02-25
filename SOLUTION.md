@@ -65,7 +65,7 @@ The program will respond with either:
 or
 ```
     DISTRIBUTOR1 is NOT authorized to distribute in CHICAGO-ILLINOIS-UNITED STATES. Reason: Explicitly excluded by distributor: DISTRIBUTOR1
-``
+```
 
 ---
 
